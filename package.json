@@ -1,0 +1,8 @@
+{
+  "name": "vb-rio-poc-node",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
