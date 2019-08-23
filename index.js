@@ -3,7 +3,7 @@ const port = process.env.PORT || 80;
 
 const requestHandler = (request, response) => {
   console.log(request.url);
-  response.end("Hello World, I'm Node.js v17!");
+  response.end("Hello World, I'm Node.js v18!");
 };
 
 const server = http.createServer(requestHandler);
