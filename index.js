@@ -4,7 +4,7 @@ const port = process.env.PORT || 80;
 const requestHandler = (request, response) => {
   console.log(request.url);
   const name = process.env.NAME || `Node.js`;
-  response.end(`Hello World, I'm ${name} v21!`);
+  response.end(`Hello World, I'm ${name} v22!`);
 };
 
 const server = http.createServer(requestHandler);
